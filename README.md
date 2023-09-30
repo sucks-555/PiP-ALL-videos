@@ -1,9 +1,6 @@
 <h1>PiP-ALL-videos</h1>
-<p>It will only work if there is a video tag on the site.
-Once activated, a button will appear in the upper left corner of the screen.
-Left-click the button for picture-in-picture, right-click for menu.
-The menu has hidden items. <br>
-This code is available in the Chrome extension or console.</p>
+<p>This code will only function if there is a video tag present on the website. Once activated, a button will appear in the upper left corner of the screen. Left-click the button for picture-in-picture mode, and right-click for the menu. Please note that the menu contains hidden items. You can utilize this code either as a Chrome extension or within the console.</p>
+<p>このコードは、ウェブサイトにビデオタグが存在する場合にのみ動作します。アクティベートすると、画面の左上隅にボタンが表示されます。ボタンを左クリックすると、ピクチャインピクチャが表示され、右クリックするとメニューが表示されます。このコードはChrome拡張機能またはコンソールで使用できます。</p>
 
 ```js
 const video = document.querySelector("video");
