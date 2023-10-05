@@ -50,10 +50,8 @@ if (video) {
       customContextMenu.style.display = 'none';
     }
   });
-  if (video) {
-    if (video.hasAttribute('disablePictureInPicture')) {
-      video.removeAttribute('disablePictureInPicture');
-    }
+  if (video.hasAttribute('disablePictureInPicture')) {
+    video.removeAttribute('disablePictureInPicture');
   }
   function togglePictureInPicture(video) {
     if (document.pictureInPictureEnabled) {
